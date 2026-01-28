@@ -7,7 +7,7 @@ The goal is not to showcase a framework-heavy application, but to demonstrate **
 
 ---
 
-## ✨ Features
+## Features
 
 - Glassmorphism-inspired UI with depth and transparency
 - Soft animated background with subtle energy patterns
@@ -18,7 +18,7 @@ The goal is not to showcase a framework-heavy application, but to demonstrate **
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **HTML5** – semantic structure
 - **CSS3** – custom properties, glass effects, layout, animations
@@ -26,7 +26,7 @@ The goal is not to showcase a framework-heavy application, but to demonstrate **
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project serves as:
 
