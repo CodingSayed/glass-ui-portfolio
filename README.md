@@ -5,8 +5,6 @@ This project explores **Frutiger Aero–style glass UI**, depth, and subtle anim
 
 The goal is not to showcase a framework-heavy application, but to demonstrate **UI craftsmanship**, layout decisions, and attention to detail.
 
----
-
 ## Features
 
 - Glassmorphism-inspired UI with depth and transparency
@@ -16,15 +14,11 @@ The goal is not to showcase a framework-heavy application, but to demonstrate **
 - Clean, readable typography and spacing on wide screens
 - Designed to feel calm, modern, and polished
 
----
-
 ## Tech Stack
 
 - **HTML5** – semantic structure
 - **CSS3** – custom properties, glass effects, layout, animations
 - **JavaScript (Vanilla)** – interactive card tilt and hover behavior
-
----
 
 ## Purpose
 
@@ -35,5 +29,3 @@ This project serves as:
 - A foundation for future UI/UX experiments
 
 It is intentionally lightweight and framework-agnostic.
-
----
