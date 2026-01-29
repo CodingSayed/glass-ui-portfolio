@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sayed | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-energy" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <header class="main-header">
+    <div class="logo">SAYED<span>.DEV</span></div>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#intro">Introduction</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="glass-pill-btn" href="https://github.com/CodingSayed" target="_blank" rel="noreferrer">
+        GitHub
+      </a>
+      
+      <a class="glass-pill-btn primary" href="./assets/placeholder.pdf" download>
+        <s>Download CV</s>
+      </a>
+    </div>
+  </header>
+
+  <section id="intro" class="section intro intro-wide">
+    <div class="intro-wrap">
+      <h1 class="intro-title"></h1>
+    </div>
+  </section>
+
+  <div class="content-body">
+    <aside class="sidebar">
+      <div class="side-panel">
+        <div class="profile-mini">
+          <div class="avatar" aria-hidden="true">
+            <img src="./assets/images/jiji.jpg" alt="Avatar CodingSayed" class="avatar-img">
+          </div>
+          <div class="profile-meta">
+            <div class="name">CodingSayed</div>
+            <div class="role">Frontend Developer • UI/UX Designer</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Tech Stack</h3>
+      <div class="side-panel">
+        <div class="stack">
+          <span class="pill"><span class="dot"></span>JavaScript</span>
+          <span class="pill"><span class="dot"></span>TypeScript</span>
+          <span class="pill"><span class="dot"></span>React</span>
+          <span class="pill"><span class="dot"></span>HTML</span>
+          <span class="pill"><span class="dot"></span>CSS / UI</span>
+          <span class="pill"><span class="dot"></span>C#</span>
+          <span class="pill"><span class="dot"></span>Python</span>
+        </div>
+      </div>
+
+      <h3>Quick Links</h3>
+      <div class="side-panel">
+        <div class="side-links">
+          <a class="side-link" href="#projects"><span>Projects</span><span class="arrow">→</span></a>
+          <a class="side-link" href="#about"><span>About</span><span class="arrow">→</span></a>
+          <a class="side-link" href="#contact"><span>Contact</span><span class="arrow">→</span></a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section id="projects" class="section">
+        <div class="section-inner">
+          <article class="project-showcase glass-hero" id="hero-display">
+            <div class="hero-split">
+              <div class="hero-visual">
+                <div class="img-box" style="height: 400px; width: 100%;">
+                  <img id="hero-img" src="" class="product-img" alt="Showcase Image" />
+                </div>
+              </div>
+              
+              <div class="hero-info">
+                <span id="hero-category" class="category"></span>
+                <h1 id="hero-title" class="intro-title" style="margin: 10px 0;"></h1>
+                <p id="hero-desc" class="project-desc" style="font-size: 16px; opacity: 0.85;"></p>
+                
+                <div class="tech-stack" id="hero-tech" style="margin-top: 20px;">
+                  </div>
+                
+                <div style="margin-top: 30px;">
+                  <a href="index.html" class="glass-pill-btn primary">← Back to Gallery</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
